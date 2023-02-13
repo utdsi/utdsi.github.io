@@ -1,0 +1,177 @@
+body{
+    margin:0px;
+    
+}
+
+#nav-menu{
+    position: sticky;
+    top: 0;
+    border:0px solid red;
+    display: flex;
+    justify-content: space-between;
+    background-color: #75c694;
+    border-radius: 15px;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 20px;
+    height: 50px;
+    
+}
+#nav-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#nav-menu div{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#resume button{
+    margin: 5px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 18px;
+    background-color:#75c694 ;
+    border: 0px;
+    font-size: 18px;
+}
+
+#resume button:hover{
+    cursor: pointer;
+    background-color:grey;
+    border: 2px solid black;
+    color: white;
+}
+#nav-menu p:hover{
+    cursor: pointer;
+    color: white;
+    
+}
+
+#image{
+    border:0px solid red;
+    display: flex;
+    padding-left: 30%;
+    
+    height: 300px;
+    font-size: 25px;
+    
+}
+#image div{
+    border:0px solid blue;
+    margin-right: 5%;
+}
+#photo{
+    border-radius: 50%;
+}
+#photo img{
+    border-radius: 50%;
+    height: 300px;
+}
+#image button{
+    margin: 5px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 18px;
+    background-color:#75c694 ;
+    border: 0px;
+    font-size: 18px;
+}
+#image button:hover{
+    cursor: pointer;
+    background-color:grey;
+    border: 2px solid black;
+    color: white;
+}
+#aboutme{
+    width:50%;
+    margin: auto;
+    text-align: center;
+}
+#aboutme h1{
+    font-size: 50px;
+}
+#skillsi>div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    text-align: center;
+}
+#skillsi{
+    text-align: center;
+    margin: auto;
+    
+}
+#skillsi h1{
+    font-size: 50px;
+}
+#skillsi>h1~div{
+    width: 70%;
+    border: 0px solid red;
+    margin: auto;
+
+}
+.skills-card{
+    width:50%
+}
+.skills-card-img{
+    width: 100%;
+}
+#pro{
+    text-align: center;
+}
+#pro>h1{
+    font-size: 50px
+}
+
+.project-card{
+    border: 0px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.project-card button:hover{
+cursor: pointer;
+}
+
+
+.project-card div{
+    width: 31%;
+}
+
+.projecti{
+    width: 30%;
+}
+.projecti img{
+    width: 100%;
+}
+
+#cont{
+    margin: auto;
+    text-align: center;
+    color: black;
+
+}
+
+#cont a{
+    text-decoration: none;
+color: black;
+}
+#cont h1{
+    font-size: 50px;
+}
+#bot{
+    display: flex;
+    justify-content: space-around;
+}
+#git{
+    margin-top: 20px;
+}
