@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/utdsi/utdsi.github.io/issues"
   },
-  "homepage": "https://github.com/utdsi/utdsi.github.io#readme"
+  "homepage": "https://github.com/utdsi/utdsi.github.io#readme",
+  "dependencies": {
+    "github-calendar": "^2.3.2"
+  }
 }
