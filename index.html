@@ -6,7 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <link rel="stylesheet" href="./index.css">
+    <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
+  </script>
+
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
 </head>
 <body>
     <div id="nav-menu">       
@@ -207,5 +215,50 @@
        </div>
     
 
+       <div id="stats">
+        <h2 class="mid">Github Stats</h2>
+        <hr>
+    <div>
+    <img  id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs?username=utdsi&show_icons=true&locale=en&layout=compact" alt="utdsi">
+    
+    <div id="statsimg">
+    <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=utdsi&show_icons=true&locale=en" alt="utdsi">
+    <img  id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=utdsi&" alt="utdsi">
+    </div>
+    
+    </div>
+       </div>
+    
+       <div id="calendar">
+        <h2 class="mid">Github Calendar</h2>
+        <hr>
+        <div  class="react-activity-calendar calendar">
+           
+            Loading the data just for you.
+        </div>
+    </div>
+
+
+    <div id="cont">
+
+        <h2>Contacts</h2>
+        <hr>
+        <a id="contact-linkedin" href="https://www.linkedin.com/in/utkarsh-sinha-431201104/"><i class="fa fa-linkedin"></i>LinkedIn</a><br><br>
+        <a id="contact-github" href="https://github.com/utdsi"><i class="fa fa-github"></i> Github</a>
+        <p id="contact-email"><i class="fa fa-envelope"></i>utkarshsinha852@gmail.com</p>
+        <p id="contact-phone"><i class="fa fa-phone"></i>+91-7019955213</p>
+
+
+
+    </div>
+
 </body>
 </html>
+<script>
+
+GitHubCalendar(".calendar", "utdsi", {
+    responsive: true,
+    global_stats: false,
+    tooltips: true,
+  });
+</script>
