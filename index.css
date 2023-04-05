@@ -263,13 +263,14 @@ width: 90%;
     border-radius: 5px;
   }
   .sidebar{
-    
+    display: none;
     width: 20%;
     margin-left: 80%;
     background-color: black;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    
 
   }
   .closebtn{
