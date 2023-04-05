@@ -15,6 +15,7 @@ body{
 border-radius: 8px;
 }
 
+
 #nav-menu{
     display: flex;
     border: 1px solid red;
@@ -28,7 +29,17 @@ border-radius: 8px;
   max-width: 100%;
   z-index: 3;
 }
-
+#resume-button-1{
+background-color: #0cc0df;
+padding: 10px;
+font-size: 20px;
+border: 0px;
+padding: 20px;
+}
+#resume-button-1 a{
+  text-decoration: none;
+  color: white;
+}
 #nav-menu div{
 
     display: flex;
@@ -93,6 +104,14 @@ align-items: center;
     color: white;
     cursor: pointer;
     transform: scale(0.8);
+  }
+  #resume-button-2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  #resume-button-2 a:hover{
+    color: white;
   }
 
   #skills{
