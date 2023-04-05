@@ -262,25 +262,7 @@ width: 90%;
     color: white;
     border-radius: 5px;
   }
-  .sidebar{
-    display: none;
-    width: 20%;
-    margin-left: 80%;
-    background-color: black;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
-
-  }
-  .closebtn{
-    text-decoration: none;
-    color: white
-  }
-  .sidebar div a{
-    text-decoration: none;
-    color: white
-  }
+  
 
   
 
@@ -341,6 +323,26 @@ width: 90%;
     #github-top-langs{
       margin-left: 18%;
     }
+    .sidebar{
+    
+      width: 20%;
+      margin-left: 80%;
+      background-color: black;
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      
+  
+    }
+    .closebtn{
+      text-decoration: none;
+      color: white
+    }
+    .sidebar div a{
+      text-decoration: none;
+      color: white
+    }
+    
 
 
     
