@@ -6,6 +6,7 @@ body{
 
 .name{
   font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .sidebar{
   display: none;
@@ -89,7 +90,11 @@ align-items: center;
   }
   #about p{
     width: 50%;
-    text-align: center;
+    text-align: left;
+    margin: auto;
+  }
+  #user-detail-div{
+    width:80% ;
     margin: auto;
   }
 
@@ -112,7 +117,7 @@ align-items: center;
     background-color:#0cc0df ;
     color: white;
     cursor: pointer;
-    transform: scale(0.8);
+    transform: scale(0.9);
   }
   #resume-button-2 a{
     text-decoration: none;
@@ -146,7 +151,7 @@ align-items: center;
   }
   #grid img{
     width: 30%;
-    border-radius: 40%;
+    border-radius: 20%;
   }
 
   .skills-card{
@@ -156,6 +161,35 @@ align-items: center;
   }
 
   .skills-card:hover{
+    background-color: #0cc0df;
+    color: white;
+    cursor: pointer;
+    transform: scale(0.9);
+  }
+  #tool{
+    display: grid;
+
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    margin-top: 50px;
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  #tool img{
+    width: 30%;
+    border-radius: 20%;
+  }
+
+  .tools-card{
+    border: 1px solid #0cc0df;
+    border-radius: 20px;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .tools-card:hover{
     background-color: #0cc0df;
     color: white;
     cursor: pointer;
@@ -215,6 +249,14 @@ align-items: center;
   #g{
     width: 80%;
     margin: auto;
+    
+  }
+  #lang{
+    margin: auto;
+    margin-bottom: 50px;
+    width: 30%;
+    
+    
   }
   #github-top-langs{
     
@@ -222,8 +264,10 @@ align-items: center;
     text-align: center;
     border:1px solid #0cc0df;
     border-radius: 20px;
-    margin-left: 35%;
-    margin-bottom: 20px;
+    
+    
+    width: 100%;
+    
   }
   
   #statsimg{
@@ -262,6 +306,7 @@ width: 90%;
     color: white;
     border-radius: 5px;
   }
+
   
 
   
@@ -310,6 +355,9 @@ width: 90%;
     #grid{
       grid-template-columns: repeat(3,1fr);
     }
+    #tool{
+      grid-template-columns: repeat(3,1fr);
+    }
 
     #p{
       grid-template-columns: repeat(1,1fr);
@@ -320,9 +368,7 @@ width: 90%;
     #statsimg{
       flex-direction: column;
     }
-    #github-top-langs{
-      margin-left: 18%;
-    }
+    
     .sidebar{
     
       width: 20%;
@@ -371,9 +417,10 @@ width: 90%;
     #grid{
       grid-template-columns: repeat(2,1fr);
     }
-    #github-top-langs{
-      margin-left: 10%;
+    #tool{
+      grid-template-columns: repeat(2,1fr);
     }
+    
   }
 
 
