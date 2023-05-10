@@ -257,6 +257,7 @@ align-items: center;
     width: 30%;
     
     
+    
   }
   #github-top-langs{
     
@@ -368,6 +369,9 @@ width: 90%;
     #statsimg{
       flex-direction: column;
     }
+    #lang{
+      width: 100%;
+    }
     
     .sidebar{
     
@@ -412,6 +416,9 @@ width: 90%;
     .openbtn{
       background-color: #0cc0df;
       border: 0px;
+      width: 100%;
+    }
+    #lang{
       width: 100%;
     }
     #grid{
