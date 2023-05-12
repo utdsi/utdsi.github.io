@@ -96,6 +96,7 @@ align-items: center;
   #user-detail-div{
     width:80% ;
     margin: auto;
+    
   }
 
   #aboutflex{
@@ -223,7 +224,7 @@ align-items: center;
     background-color: #0cc0df;
     color: white;
     cursor: pointer;
-    transform: scale(0.95);
+    transform: scale(0.97);
   }
   .projectlinks a{
     text-decoration: none;
